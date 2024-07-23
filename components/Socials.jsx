@@ -12,23 +12,19 @@ import Link from 'next/link';
 
 const icons = [
   {
-    path: '/',
+    path: 'https://www.youtube.com/@moudjahidmoussa',
     name: <RiYoutubeFill />,
   },
   {
-    path: '/',
+    path: 'https://www.linkedin.com/in/moudjahid-moussa/',
     name: <RiLinkedinFill />,
   },
   {
-    path: '/',
+    path: 'https://github.com/Danjari',
     name: <RiGithubFill />,
   },
   {
-    path: '/',
-    name: <RiFacebookFill />,
-  },
-  {
-    path: '/',
+    path: 'https://www.instagram.com/muja_online/',
     name: <RiInstagramFill />,
   },
 ];

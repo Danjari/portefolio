@@ -15,7 +15,7 @@ import {
 const infoData = [
   {
     icon: <User2 size={20} />,
-    text: 'Ryan Davis',
+    text: 'Moudjahid Moussa',
   },
   {
     icon: <PhoneCall size={20} />,
