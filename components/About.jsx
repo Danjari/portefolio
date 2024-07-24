@@ -44,20 +44,21 @@ const qualificationData = [
     title: 'education',
     data: [
       {
-        university: 'Example University',
+        university: 'New York University',
         qualification: 'Bachelor of Science',
+        major: "Computer Science & Applied Math",
         years: '2015 - 2018',
       },
-      {
-        university: 'Another University',
-        qualification: 'Master of Arts',
-        years: '2019 - 2021',
-      },
-      {
-        university: 'Yet Another University',
-        qualification: 'Ph.D in Computer Science',
-        years: '2021 - 2025',
-      },
+      // {
+      //   university: 'Another University',
+      //   qualification: 'Master of Arts',
+      //   years: '2019 - 2021',
+      // },
+      // {
+      //   university: 'Yet Another University',
+      //   qualification: 'Ph.D in Computer Science',
+      //   years: '2021 - 2025',
+      // },
     ],
   },
   {
@@ -135,7 +136,7 @@ const About = () => {
           <div className='hidden xl:flex flex-1 relative'>
             <DevImg
               containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative'
-              imgSrc='/about/developer.png'
+              imgSrc='/hero/moudja_toon.png'
             />
           </div>
           {/* tabs */}
@@ -245,7 +246,7 @@ const About = () => {
                         <div className='flex flex-col gap-y-8'>
                           {getData(qualificationData, 'education').data.map(
                             (item, index) => {
-                              const { university, qualification, years } = item;
+                              const { university, qualification, years,major } = item;
                               return (
                                 <div className='flex gap-x-8 group' key={index}>
                                   <div className='h-[84px] w-[1px] bg-border relative ml-2'>
@@ -259,7 +260,7 @@ const About = () => {
                                       {qualification}
                                     </div>
                                     <div className='text-base font-medium'>
-                                      {years}
+                                      {major}
                                     </div>
                                   </div>
                                 </div>
