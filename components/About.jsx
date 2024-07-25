@@ -19,23 +19,23 @@ const infoData = [
   },
   {
     icon: <PhoneCall size={20} />,
-    text: '+012 345 6789',
+    text: '+971 50 117 53 63',
   },
   {
     icon: <MailIcon size={20} />,
-    text: 'youremail@email.com',
+    text: 'mm12515@nyu.edu',
   },
   {
     icon: <Calendar size={20} />,
-    text: 'Born on 10 Mar, 1998',
+    text: 'Born on 30 Dec, 2001',
   },
   {
     icon: <GraduationCap size={20} />,
-    text: 'Master on Computer Science',
+    text: 'Bachelor in Computer Science',
   },
   {
     icon: <HomeIcon size={20} />,
-    text: '321 Blue Avenue, NY, USA',
+    text: 'Saadiyat Island, Abu Dhabi, UAE',
   },
 ];
 
@@ -88,16 +88,20 @@ const skillData = [
     title: 'skills',
     data: [
       {
-        name: 'HTML, CSS',
+        name: 'Front-end Development:',
+        tech: "HTML, CSS, JavaScript, React.js",
       },
       {
-        name: 'Front-end Development',
+        name: 'Data Analysis: ',
+        tech:"Pandas, NumPy, SQL, Excel"
       },
       {
-        name: 'Javascript, PHP',
+        name: 'Machine Learning and AI:',
+        tech: 'Python, Scikit-learn, MLflow',
       },
       {
-        name: 'Back-end Development',
+        name: 'Back-end Development:',
+        tech: 'Node.js, Express.js, SQL, MongoDB',
       },
     ],
   },
@@ -114,7 +118,7 @@ const skillData = [
         imgPath: '/about/notion.svg',
       },
       {
-        imgPath: '/about/wordpress.svg',
+        imgPath: '/about/mysql.svg',
       },
     ],
   },
@@ -155,6 +159,7 @@ const About = () => {
                 <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>
                   Skills
                 </TabsTrigger>
+                
               </TabsList>
               {/* tabs content */}
               <div className='text-lg mt-12 xl:mt-8'>
@@ -187,7 +192,7 @@ const About = () => {
                     <div className='flex flex-col gap-y-2'>
                       <div className='text-primary'>Language Skill</div>
                       <div className='border-b border-border'></div>
-                      <div>English, French, Spanish, Italian</div>
+                      <div>English, French, Hausa,Zarma</div>
                     </div>
                   </div>
                 </TabsContent>
@@ -284,13 +289,14 @@ const About = () => {
                       <div>
                         {getData(skillData, 'skills').data.map(
                           (item, index) => {
-                            const { name } = item;
+                            const { name, tech } = item;
                             return (
                               <div
                                 className='w-2/4 text-center xl:text-left mx-auto xl:mx-0'
                                 key={index}
                               >
                                 <div className='font-medium'>{name}</div>
+                                <div className='text-sm text-muted-foreground'>{tech}</div>
                               </div>
                             );
                           }

@@ -18,7 +18,7 @@ import ProjectCard from '@/components/ProjectCard';
 const projectData = [
   {
     image: '/work/3.png',
-    category: 'react js',
+    category: 'Web Development',
     name: 'Nexa Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -26,8 +26,8 @@ const projectData = [
     github: '/',
   },
   {
-    image: '/work/4.png',
-    category: 'react js',
+    image: '/work/data_0.png',
+    category: 'Data Science',
     name: 'Solstice Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -36,7 +36,7 @@ const projectData = [
   },
   {
     image: '/work/2.png',
-    category: 'next js',
+    category: 'Web Development',
     name: 'Lumina Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
@@ -45,58 +45,15 @@ const projectData = [
   },
   {
     image: '/work/1.png',
-    category: 'next js',
+    category: 'Data Science',
     name: 'Evolve Website',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
     github: '/',
   },
-  {
-    image: '/work/3.png',
-    category: 'next js',
-    name: 'Ignite Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
-    category: 'next js',
-    name: 'Envision Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'fullstack',
-    name: 'Serenity Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'fullstack',
-    name: 'Nova Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'fullstack',
-    name: 'Zenith Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
+
+
 ];
 
 const Work = () => {
@@ -107,7 +64,7 @@ const Work = () => {
         <div className='max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start'>
           <h2 className='section-title mb-4'>Latest Projects</h2>
           <p className='subtitle mb-8'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            You can check out my projects here.
           </p>
           <Link href='/projects'>
             <Button>All projects</Button>
