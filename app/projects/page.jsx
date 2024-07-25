@@ -5,86 +5,26 @@ import ProjectCard from '@/components/ProjectCard';
 
 const projectData = [
   {
-    image: '/work/3.png',
-    category: 'react js',
-    name: 'Nexa Website',
+    image: '/work/AYki01.png',
+    category: 'Node js',
+    name: 'Ayki',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
+      'A white label multi tenant SaaS app for agency owners.',
     link: '/',
     github: '/',
   },
   {
-    image: '/work/4.png',
-    category: 'react js',
-    name: 'Solstice Website',
+    image: '/work/Dropout_rate.png',
+    category: 'Python',
+    name: 'Dropout Rate In Portugal',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
+      'Streamlit app that predicts dropout rates using machine learning.',
+    link: 'https://huggingface.co/spaces/NYU-DS-4-Everyone/dropout_rate',
+    github: 'https://huggingface.co/spaces/NYU-DS-4-Everyone/dropout_rate/tree/main',
   },
-  {
-    image: '/work/2.png',
-    category: 'next js',
-    name: 'Lumina Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'next js',
-    name: 'Evolve Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'next js',
-    name: 'Ignite Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
-    category: 'next js',
-    name: 'Envision Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'fullstack',
-    name: 'Serenity Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'fullstack',
-    name: 'Nova Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'fullstack',
-    name: 'Zenith Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
+
+
+
 ];
 
 // remove category duplicates
@@ -112,7 +52,7 @@ const Projects = () => {
         </h2>
         {/* tabs */}
         <Tabs defaultValue={category} className='mb-24 xl:mb-48'>
-          <TabsList className='w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none'>
+          <TabsList className='w-full grid h-full md:grid-cols-3 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none'>
             {categories.map((category, index) => {
               return (
                 <TabsTrigger

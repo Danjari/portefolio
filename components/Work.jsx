@@ -17,40 +17,22 @@ import ProjectCard from '@/components/ProjectCard';
 
 const projectData = [
   {
-    image: '/work/3.png',
-    category: 'Web Development',
-    name: 'Nexa Website',
+    image: '/work/AYki01.png',
+    category: 'Node js',
+    name: 'Ayki',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
+      'A white label multi tenant SaaS app for agency owners.',
     link: '/',
     github: '/',
   },
   {
-    image: '/work/data_0.png',
-    category: 'Data Science',
-    name: 'Solstice Website',
+    image: '/work/Dropout_rate.png',
+    category: 'Python',
+    name: 'Dropout Rate In Portugal',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'Web Development',
-    name: 'Lumina Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'Data Science',
-    name: 'Evolve Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
+      'Streamlit app that predicts dropout rates using machine learning',
+    link: 'https://huggingface.co/spaces/NYU-DS-4-Everyone/dropout_rate',
+    github: 'https://huggingface.co/spaces/NYU-DS-4-Everyone/dropout_rate/tree/main',
   },
 
 

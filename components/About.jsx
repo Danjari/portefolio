@@ -65,19 +65,14 @@ const qualificationData = [
     title: 'experience',
     data: [
       {
-        company: 'ABC Inc.',
-        role: 'Software Engineer',
-        years: '2018 - 2020',
+        company: 'Global Outreach Intern',
+        role: 'Data Scientist',
+        years: '2022 - 2023',
       },
       {
-        company: 'XYZ Corporation',
-        role: 'Senior Developer',
-        years: '2020 - 2022',
-      },
-      {
-        company: 'Tech Innovators',
-        role: 'Lead Developer',
-        years: '2022 - Present',
+        company: 'ADAX Agency',
+        role: 'Co-Founder',
+        years: '2021 - 2024',
       },
     ],
   },
@@ -167,12 +162,11 @@ const About = () => {
                 <TabsContent value='personal'>
                   <div className='text-center xl:text-left'>
                     <h3 className='h3 mb-4'>
-                      Unmatched Service Quality for Over 10 Years
+                    Dynamic Tech Explorer
                     </h3>
                     <p className='subtitle max-w-xl mx-auto xl:mx-0'>
-                      I specialize in crafting intuitive websites with
-                      cutting-edge technology, delivering dynamic and engaging
-                      user experiences.
+                    Tech-savvy student on a mission to turn Boba-fueled
+                     coding sessions into innovative solutions.
                     </p>
                     {/* icons */}
                     <div className='grid xl:grid-cols-2 gap-4 mb-12'>
