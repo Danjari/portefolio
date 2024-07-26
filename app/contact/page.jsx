@@ -1,6 +1,12 @@
 import { MailIcon, HomeIcon, PhoneCall } from 'lucide-react';
+
 // components
 import Form from '@/components/Form';
+
+
+export const metadata = {
+  title: 'Contact',
+};
 
 const Contact = () => {
   return (

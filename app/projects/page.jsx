@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import { Tabs, TabsList, TabsContent, TabsTrigger } from '@/components/ui/tabs';
 import ProjectCard from '@/components/ProjectCard';
+import { Metadata } from 'next';
+
 
 const projectData = [
   {

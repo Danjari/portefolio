@@ -10,8 +10,24 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 const outfit = Outfit({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Moudjahid Moussa',
-  description: 'Personal Website',
+  metadataBase: new URL('https://moudjahid-moussa.com'),
+  title: {
+    template: '%s | Moudjahid Moussa',
+    default: 'Moudjahid Moussa| Personal website',
+  },
+  description: 'My little corner of the internet, where I share my web development and AI projects, skills, and professional experience in software engineering.',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  keywords: 'Moudjahid Moussa, portfolio, web development, software engineering, projects, intern, best software developer',
+  openGraph: {
+    title: 'Moudjahid Moussa | Personal Website',
+    description: 'My little corner of the internet, where I share my web development and AI projects, skills, and professional experience in software engineering.',
+    type: 'website',
+    url: 'https://moudjahid-moussa.com',
+    siteName: 'Moudjahid Moussa',
+  },
+
 };
 
 export default function RootLayout({ children }) {
