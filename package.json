@@ -1,5 +1,5 @@
 {
-  "homepage": "https://danjari.github.io/portefolio/",
+  "homepage": "https://danjari.github.io/portefolio",
   "name": "portefolio",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export -o build",
     "lint": "next lint"
   },
   "dependencies": {
