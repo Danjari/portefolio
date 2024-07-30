@@ -16,6 +16,15 @@ const projectData = [
     github: '/',
   },
   {
+    image: '/work/chat_to_visual.jpg',
+    category: 'Python',
+    name: 'Chat to Visual',
+    description:
+      'A tool that converts complex questions into easy visualizations using AI',
+    link: 'https://chat-to-visual.streamlit.app/',
+    github: 'https://github.com/Danjari/Chat-to-Visual',
+  },
+  {
     image: '/work/Dropout_rate.png',
     category: 'Python',
     name: 'Dropout Rate In Portugal',
