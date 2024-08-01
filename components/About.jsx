@@ -18,24 +18,12 @@ const infoData = [
     text: 'Moudjahid Moussa',
   },
   {
-    icon: <PhoneCall size={20} />,
-    text: '+971 50 117 53 63',
-  },
-  {
     icon: <MailIcon size={20} />,
     text: 'mm12515@nyu.edu',
   },
   {
-    icon: <Calendar size={20} />,
-    text: 'Born on 30 Dec, 2001',
-  },
-  {
     icon: <GraduationCap size={20} />,
     text: 'Bachelor in Computer Science',
-  },
-  {
-    icon: <HomeIcon size={20} />,
-    text: 'Saadiyat Island, Abu Dhabi, UAE',
   },
 ];
 
