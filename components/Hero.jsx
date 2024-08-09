@@ -26,8 +26,7 @@ const Hero = () => {
             </div>
             <h1 className='h1 mb-4'>Hello, I'm Moudjahid</h1>
             <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>
-            I am a software engineer skilled in turning complex problems into useful products or insights, 
-            blending machine learning and web development to create effective solutions.
+            Currently working on the best Mock Software Engineering Interview Platform. Just trying to learn, grow and have fun along the way. 
             </p>
             {/* buttons */}
             <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
