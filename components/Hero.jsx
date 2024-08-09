@@ -24,10 +24,10 @@ const Hero = () => {
             <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>
               Software Engineer
             </div>
-            <h1 className='h1 mb-4'>Hello, my name is Moudjahid</h1>
+            <h1 className='h1 mb-4'>Hello, I'm Moudjahid</h1>
             <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>
-              Brief description with insights into myself, my vocational
-              journey, and what I engage in professionally.
+            I am a software engineer skilled in turning complex problems into useful products or insights, 
+            blending machine learning and web development to create effective solutions.
             </p>
             {/* buttons */}
             <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
@@ -36,7 +36,7 @@ const Hero = () => {
                   Get in touch <Send size={18} />
                 </Button>
               </Link>
-              <Link href='https://drive.google.com/file/d/1qiSALaSZtERk0_VGDeNFMBJS5ef-or0q/view?usp=sharing' target='_blank'>
+              <Link href='https://drive.google.com/file/d/1HNmmMYq6_cra9DULEAXc4ZOxXrZUN41A/view?usp=sharing' target='_blank'>
                 <Button variant='secondary' className='gap-x-2'>
                   Download CV
                   <Download size={18} />
